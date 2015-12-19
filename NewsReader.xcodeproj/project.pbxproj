@@ -14,6 +14,16 @@
 		61693F7A1C17A9C000687022 /* NewsReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61693F791C17A9C000687022 /* NewsReaderTests.swift */; };
 		61693F851C17A9C000687022 /* NewsReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61693F841C17A9C000687022 /* NewsReaderUITests.swift */; };
 		61693F931C17ACB300687022 /* NRArticlesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61693F921C17ACB300687022 /* NRArticlesTableViewController.swift */; };
+		61E4834F1C24DC3700240897 /* ReadTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E4834E1C24DC3700240897 /* ReadTextViewController.swift */; };
+		61E483511C24E36A00240897 /* watsonsdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E483501C24E36A00240897 /* watsonsdk.framework */; };
+		61E483531C24E3A200240897 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E483521C24E3A200240897 /* AudioToolbox.framework */; };
+		61E483551C24E3AA00240897 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E483541C24E3AA00240897 /* AVFoundation.framework */; };
+		61E483571C24E3B300240897 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E483561C24E3B300240897 /* CFNetwork.framework */; };
+		61E483591C24E3BB00240897 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E483581C24E3BB00240897 /* CoreAudio.framework */; };
+		61E4835B1C24E3C600240897 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E4835A1C24E3C600240897 /* Foundation.framework */; };
+		61E4835D1C24E3D100240897 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E4835C1C24E3D100240897 /* libicucore.tbd */; };
+		61E4835F1C24E3E500240897 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E4835E1C24E3E500240897 /* QuartzCore.framework */; };
+		61E483611C24E3EE00240897 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E483601C24E3EE00240897 /* Security.framework */; };
 		C889F7F4FDB6F4971226D113 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7899B6CFF7E8BF95B2F2C12A /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +59,17 @@
 		61693F841C17A9C000687022 /* NewsReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsReaderUITests.swift; sourceTree = "<group>"; };
 		61693F861C17A9C000687022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61693F921C17ACB300687022 /* NRArticlesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRArticlesTableViewController.swift; sourceTree = "<group>"; };
+		61E4834E1C24DC3700240897 /* ReadTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadTextViewController.swift; sourceTree = "<group>"; };
+		61E483501C24E36A00240897 /* watsonsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = watsonsdk.framework; path = ../../../Downloads/watsonsdk.framework; sourceTree = "<group>"; };
+		61E483521C24E3A200240897 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		61E483541C24E3AA00240897 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		61E483561C24E3B300240897 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		61E483581C24E3BB00240897 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		61E4835A1C24E3C600240897 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		61E4835C1C24E3D100240897 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		61E4835E1C24E3E500240897 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		61E483601C24E3EE00240897 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		61E483621C24E43500240897 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		7899B6CFF7E8BF95B2F2C12A /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D0BEDC9F6A2A2A2DA1D106 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,7 +79,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61E483611C24E3EE00240897 /* Security.framework in Frameworks */,
+				61E4835F1C24E3E500240897 /* QuartzCore.framework in Frameworks */,
+				61E4835D1C24E3D100240897 /* libicucore.tbd in Frameworks */,
+				61E4835B1C24E3C600240897 /* Foundation.framework in Frameworks */,
+				61E483591C24E3BB00240897 /* CoreAudio.framework in Frameworks */,
+				61E483571C24E3B300240897 /* CFNetwork.framework in Frameworks */,
+				61E483551C24E3AA00240897 /* AVFoundation.framework in Frameworks */,
+				61E483531C24E3A200240897 /* AudioToolbox.framework in Frameworks */,
 				C889F7F4FDB6F4971226D113 /* Pods.framework in Frameworks */,
+				61E483511C24E36A00240897 /* watsonsdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +112,15 @@
 		1A59E749E5ACEC5B218C9EF6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				61E483601C24E3EE00240897 /* Security.framework */,
+				61E4835E1C24E3E500240897 /* QuartzCore.framework */,
+				61E4835C1C24E3D100240897 /* libicucore.tbd */,
+				61E4835A1C24E3C600240897 /* Foundation.framework */,
+				61E483581C24E3BB00240897 /* CoreAudio.framework */,
+				61E483561C24E3B300240897 /* CFNetwork.framework */,
+				61E483541C24E3AA00240897 /* AVFoundation.framework */,
+				61E483521C24E3A200240897 /* AudioToolbox.framework */,
+				61E483501C24E36A00240897 /* watsonsdk.framework */,
 				7899B6CFF7E8BF95B2F2C12A /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -114,10 +153,12 @@
 			children = (
 				61693F641C17A9C000687022 /* AppDelegate.swift */,
 				61693F921C17ACB300687022 /* NRArticlesTableViewController.swift */,
+				61E4834E1C24DC3700240897 /* ReadTextViewController.swift */,
 				61693F681C17A9C000687022 /* Main.storyboard */,
 				61693F6B1C17A9C000687022 /* Assets.xcassets */,
 				61693F6D1C17A9C000687022 /* LaunchScreen.storyboard */,
 				61693F701C17A9C000687022 /* Info.plist */,
+				61E483621C24E43500240897 /* BridgingHeader.h */,
 			);
 			path = NewsReader;
 			sourceTree = "<group>";
@@ -332,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61693F931C17ACB300687022 /* NRArticlesTableViewController.swift in Sources */,
+				61E4834F1C24DC3700240897 /* ReadTextViewController.swift in Sources */,
 				61693F651C17A9C000687022 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
