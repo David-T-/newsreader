@@ -1,14 +1,16 @@
 //
 //  BridgingHeader.h
-//  NewsReader
+//  
 //
-//  Created by David Tucito on 12/18/15.
-//  Copyright © 2015 David Tucito. All rights reserved.
+//  Created by David Tucito on 12/21/15.
+//
 //
 
 #ifndef BridgingHeader_h
 #define BridgingHeader_h
 
+#import <watsonsdk/SpeechToText.h>
+#import <watsonsdk/STTConfiguration.h>
 #import <watsonsdk/TextToSpeech.h>
 #import <watsonsdk/TTSConfiguration.h>
 
